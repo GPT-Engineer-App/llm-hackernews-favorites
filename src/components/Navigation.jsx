@@ -7,6 +7,9 @@ function Navigation() {
       <Link as={RouterLink} to="/" mr="4">
         Home
       </Link>
+      <Link as={RouterLink} to="/index" mr="4">
+        Stories
+      </Link>
       <Link as={RouterLink} to="/about">
         About
       </Link>

@@ -1,5 +1,6 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Index from "./pages/Index.jsx";
+import LandingPage from "./pages/LandingPage.jsx";
 import Navigation from "./components/Navigation";
 import About from "./components/About";
 import Footer from "./components/Footer";
@@ -13,7 +14,7 @@ function App() {
           element={
             <>
               <Navigation />
-              <Index />
+              <LandingPage />
               <Footer />
             </>
           }
