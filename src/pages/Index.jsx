@@ -8,7 +8,7 @@ const Index = () => {
   const toast = useToast();
 
   useEffect(() => {
-    fetch("https://hn.algolia.com/api/v1/search?query=LLMs")
+    fetch("https://hn.algolia.com/api/v1/search?query=LLMs&tags=story")
       .then((response) => response.json())
       .then((data) => setStories(data.hits))
       .catch((error) => console.error("Error fetching stories:", error));
