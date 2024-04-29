@@ -39,7 +39,7 @@ const Index = () => {
   };
 
   return (
-    <Container maxW="container.md" py={8}>
+    <Container maxW="container.xl" py={8}>
       <VStack spacing={8}>
         <Heading as="h1" size="xl">
           LLM Stories
